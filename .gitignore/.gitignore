@@ -29,7 +29,7 @@ int main()
       {
        sumchild+=arr[b];
       }
-      printf("sum of********************** first child is %d\n",sumchild);
+      printf("sum of---------------------- first child is %d\n",sumchild);
      }
      if(i==1)
      {int b;
@@ -37,7 +37,7 @@ int main()
       {
        sumchild+=arr[b];
       }
-      printf("sum of********************** second child is %d\n",sumchild);
+      printf("sum of--------------- second child is %d\n",sumchild);
      }
      printf("child %d task sumchild result is :%d \n",i+1,sumchild);  
      sumtotal+=(sumchild);
@@ -57,7 +57,7 @@ int main()
       {
        sumparent+=arr[a];
       }
-      printf("sum of********************** first parent is %d\n",sumparent);
+      printf("sum of----------------------- first parent is %d\n",sumparent);
      }
      if(i==1)
       {int a;
@@ -65,7 +65,7 @@ int main()
        {
         sumparent+=arr[a];
        }
-       printf("sum of********************** second parent is %d\n",sumparent);
+       printf("sum of-------------------- second parent is %d\n",sumparent);
       }
      printf("parent %d task sumparent result is :%d \n",i+1,sumparent);     
      sumtotal+=sumparent;
